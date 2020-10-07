@@ -1,0 +1,45 @@
+.story {
+  max-width: 600px;
+  height: 110px;
+  display: flex;
+  margin: 20px 15%;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  overflow: hidden;
+}
+.story__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.story__container span {
+  font-size: 12px;
+  margin: 0 12px;
+}
+.story__img {
+  height: 70px;
+  width: 70px;
+}
+.story__img img {
+  height: 65px;
+  width: 65px;
+  object-fit: cover;
+  border: 3px solid #ed4956;
+  border-radius: 50px;
+}
+
+/* ========= responsive design ========== */
+@media screen and (max-width: 1050px) {
+  .story {
+    margin: 20px 10%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .story {
+    margin: 20px 0;
+    width: 100%;
+  }
+}

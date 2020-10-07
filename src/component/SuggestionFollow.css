@@ -1,0 +1,90 @@
+.right__section {
+  width: 23%;
+  margin-left: 60%;
+  position: absolute;
+  top: 120px;
+}
+.right__section .avatar__loggedIn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+.right__section .avatar__loggedIn .posts_userInfo {
+  margin-left: 10px;
+}
+.right__section .posts_userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: none;
+}
+.avatar__email {
+  text-transform: lowercase;
+  font-size: 14px;
+  color: #9b9b9b;
+}
+.suggestion__heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.suggestion__people_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+.suggestion__people {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.suggestion__heading h4 {
+  font-size: 15px;
+  color: #9b9b9b;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+.suggestion__heading p {
+  font-size: 13px;
+  font-weight: 600;
+}
+.suggestion__people .posts_userInfo {
+  margin-left: 10px;
+}
+.suggestion__people .posts_userInfo h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.suggestion__people .posts_userInfo span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #9b9b9b;
+}
+.suggestion__people_container p {
+  font-size: 13px;
+  color: #3aacf7;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ============ responsive design ========== */
+@media screen and (max-width: 1390px) {
+  .right__section {
+    margin-left: 70%;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .right__section {
+    margin-left: 75%;
+  }
+}
+@media screen and (max-width: 970px) {
+  .right__section {
+    display: none;
+  }
+}
